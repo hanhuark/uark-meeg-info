@@ -24,6 +24,14 @@ export const resources = [
     tags: ["student", "undergraduate", "catalog", "degree"]
   },
   {
+    title: "Final Exam Schedule",
+    url: "https://registrar.uark.edu/registration/final-exam-schedule/",
+    category: "Student Information",
+    audience: "Students, Faculty",
+    description: "Registrar final exam schedule for University of Arkansas courses.",
+    tags: ["student", "finals", "exams", "registrar", "schedule"]
+  },
+  {
     title: "Honors College Research Grant Guidelines",
     url: "https://uark.sharepoint.com/teams/hcresearch/SitePages/Honors-College-Research-Grant.aspx",
     category: "Student Information",

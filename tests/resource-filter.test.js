@@ -4,8 +4,9 @@ import assert from "node:assert/strict";
 import { resources, getCategories, filterResources } from "../script.js";
 
 test("catalog includes all starter resources", () => {
-  assert.equal(resources.length, 25);
+  assert.equal(resources.length, 26);
   assert.ok(resources.some((resource) => resource.title === "Course Search Power BI"));
+  assert.ok(resources.some((resource) => resource.title === "Final Exam Schedule"));
   assert.ok(resources.some((resource) => resource.title === "Streamlyne"));
   assert.ok(resources.some((resource) => resource.title === "SciShield Safety Training"));
 });
