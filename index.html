@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A central directory of useful links for UARK MEEG students, faculty, and staff.">
+  <title>UARK MEEG Info Hub</title>
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="script.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="topbar" aria-label="Primary">
+      <a class="brand" href="#">UARK MEEG Info Hub</a>
+      <a class="uark-link" href="https://mechanical-engineering.uark.edu/" target="_blank" rel="noreferrer">MEEG Website</a>
+    </nav>
+    <section class="hero">
+      <p class="eyebrow">University of Arkansas Mechanical Engineering</p>
+      <h1>Useful links for MEEG students, faculty, and staff.</h1>
+      <p class="hero-copy">A central directory for course tools, forms, proposal systems, travel, hiring, and recurring department resources.</p>
+      <div class="search-panel">
+        <label for="search">Search resources</label>
+        <input id="search" type="search" placeholder="Search course search, Streamlyne, travel, forms..." autocomplete="off">
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="filters" aria-label="Resource filters">
+      <div id="categoryFilters" class="filter-row"></div>
+      <p id="resultCount" class="result-count"></p>
+    </section>
+    <section id="resourceGrid" class="resource-grid" aria-live="polite"></section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Maintained for the Department of Mechanical Engineering, University of Arkansas.</p>
+  </footer>
+</body>
+</html>
